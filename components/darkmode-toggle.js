@@ -7,8 +7,7 @@ const DarkModeToggle = () => {
 
   useEffect(() => {
     setLoading(true);
-    console.log(theme, loading);
-  }, []);
+  }, [loading, theme]);
 
   return (
     <button
