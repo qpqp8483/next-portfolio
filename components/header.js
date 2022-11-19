@@ -1,5 +1,5 @@
 import Link from "next/link";
-import DarkModeToggle from "./darkMode-toggle";
+import DarkModeToggle from "./darkmodeToggle";
 
 const Header = () => {
   return (
